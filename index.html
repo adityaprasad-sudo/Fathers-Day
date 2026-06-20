@@ -266,7 +266,7 @@
     position:fixed; top:50%; left:50%; z-index:51; pointer-events:none;
     transform:translate(-50%,-50%) scale(0.85); opacity:0;
     font-family:var(--font-display); font-size:clamp(2rem,7vw,3.4rem);
-    color:var(--paper-light); text-shadow:0 4px 24px rgba(0,0,0,0.5); text-align:center;
+    color:#FF0000; text-shadow:0 4px 24px rgba(0,0,0,0.5); text-align:center;
   }
   .celebrate-message.show{animation:celebratePulse 2.8s ease forwards;}
   @keyframes celebratePulse{
@@ -354,12 +354,12 @@
         <h2>Technical Specifications</h2>
         <div class="spec-grid">
           <div class="spec-item"><div class="spec-label">Dad jokes deployed</div><div class="spec-value" data-target="14602" data-suffix="+">0</div></div>
-          <div class="spec-item"><div class="spec-label">BEEN AN UNCLE POGER</div><div class="spec-value" data-target="1248">0</div></div>
-          <div class="spec-item"><div class="spec-label">COOKED FOOD</div><div class="spec-value" data-target="412">0</div></div>
-          <div class="spec-item"><div class="spec-label">"Back in my day" stories</div><div class="spec-value" data-target="3000" data-suffix="+">0</div></div>
-          <div class="spec-item"><div class="spec-label">Naps initiated mid-movie</div><div class="spec-value" data-target="287">0</div></div>
-          <div class="spec-item"><div class="spec-label">tape repairs completed</div><div class="spec-value" data-target="89">0</div></div>
-          <div class="spec-item"><div class="spec-label">DISPUTES</div><div class="spec-value" data-target="9412">0</div></div>
+          <div class="spec-item"><div class="spec-label">BEEN AN UNCLE POGER</div><div class="spec-value" data-infinite="true">0</div></div>
+          <div class="spec-item"><div class="spec-label">COOKED FOOD</div><div class="spec-value" data-target="10000" data-suffix="+">0</div></div>
+          <div class="spec-item"><div class="spec-label">"Back in my day" stories</div><div class="spec-value" data-infinite="true">0</div></div>
+          <div class="spec-item"><div class="spec-label">Naps initiated mid-movie</div><div class="spec-value" data-infinite="true">0</div></div>
+          <div class="spec-item"><div class="spec-label">tape repairs completed</div><div class="spec-value" data-target="every repair is that">0</div></div>
+          <div class="spec-item"><div class="spec-label">DISPUTES</div><div class="spec-value" data-infinite="true">0</div></div>
           <div class="spec-item"><div class="spec-label">WORKING HOURS</div><div class="spec-value" data-infinite="true">0</div></div>
         </div>
       </div>
@@ -446,9 +446,9 @@
 
 
   const CONFIG = {
-    dadName: "Dad",
-    fromName: "The Kids",
-    patentNo: "DAD-001"
+    dadName: "PAPAYA",
+    fromName: "TWO NOOBS",
+    patentNo: "PROEST DAD"
   };
 
   document.getElementById('dadName').textContent = CONFIG.dadName;
